@@ -7,8 +7,8 @@ This script is an implementation of the Kolmogrov-Smirnov Test and is derived fr
 
 $ python pyKstest.py vec1 vec2 alpha testtype (smaller, larger, unequal)
 
-It can also be called from an another Python script by first placing this script in your project directory and then importing it from your wrapper script:
+It can also be called from an another Python script by first placing this script in your project directory and then importing it in your wrapper script:
 
 import pyKstest as kstest2
 
-[H,P,KS] = kstest.main(vec1,vec2,alpha, 'larger')
+[H,P,KS] = kstest2.main(vec1,vec2,alpha, 'larger')

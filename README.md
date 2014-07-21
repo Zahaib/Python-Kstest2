@@ -15,7 +15,7 @@ Where testtype may be 'smaller', 'larger', 'unequal'
 It can also be called from an another Python script by first placing this script in your project directory and then importing it in your wrapper script:
 
 
-###Usage
+###Importing in a Python Wrapper Script
 ```Python
 import pyKstest as kstest2
 

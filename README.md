@@ -11,4 +11,4 @@ It can also be called from an another Python script by first placing this script
 
 import pyKstest as kstest2
 
-[H1,P1,KS1] = kstest.main(vec1,vec2,alpha, 'larger')
+[H,P,KS] = kstest.main(vec1,vec2,alpha, 'larger')
